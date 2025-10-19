@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>江南防诈骗宣传网</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <script type="text/javascript" src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../js/common.js"></script>
+    <style>
+        #wsbj {
+            background-color: #f5f5f5;
+            height: 100vh;
+        }
+
+        #wsbj .main .content {
+            display: flex;
+            justify-content: center;
+        }
+
+        #wsbj .main_container {
+            width: 540px;
+            height: 400px;
+            background-color: #defafb;
+            border-radius: 10px;
+            margin-top: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #wsbj .main_container table tbody {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #wsbj .main_container table tr {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        #wsbj .main_container table tr .label {
+            min-width: 70px;
+            text-align: right;
+            margin-right: 10px;
+        }
+
+        #wsbj .main_container .btn {
+            width: 180px;
+            height: 40px;
+            background-color: #00aeff;
+            border-radius: 6px;
+            border: 0 none;
+            color: #fff;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wsbj">
+        <!-- 回到顶部 -->
+        <div class="new_mbshop">
+            <a href="JavaScript:;" id="toTop">返回顶部</a>
+        </div>
+
+        <!-- 头部 区域 -->
+        <header>
+            <div class="content">
+                <img src="../images/header.png" alt="">
+            </div>
+        </header>
+
+        <!-- 导航栏 区域 -->
+        <nav>
+            <div class="content">
+                <div class="title">
+                    江南防诈骗宣传网
+                </div>
+                <ul>
+                    <li><a href="../index.html">首页</a></li>
+                    <li>
+                        <a href="wsbj.html">新闻资讯</a>
+                        <div class="classify">
+                            <a href="JavaScript:;">新闻简介</a>
+                            <a href="JavaScript:;">新闻详情</a>
+                        </div>
+                    </li>
+                    <li><a href="fzpcg.html">防诈骗成果</a></li>
+                    <li>
+                        <a href="hdjl.html">互动交流</a>
+                        <div class="classify">
+                            <a href="JavaScript:;">交流简介</a>
+                            <a href="JavaScript:;">交流成果</a>
+                            <a href="JavaScript:;">互动天地</a>
+                        </div>
+                    </li>
+                    <li><a href="fqzjjfa.html">反欺诈解决方案</a></li>
+                    <li><a href="JavaScript:;" class="orange">网上报警</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- 信息 区域 -->
+        <div class="main">
+            <div class="content">
+                <div class="main_container">
+                    <form action="">
+                        <table>
+                            <tr>
+                                <td class="label">
+                                    <label for="username">姓名:</label>
+                                </td>
+                                <td>
+                                    <input type="text" id="username" name="username" placeholder="请输入姓名" style="width: 240px;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="label">
+                                    <label for="email">电子邮箱:</label>
+                                </td>
+                                <td>
+                                    <input type="text" id="email" name="email" placeholder="请输入电子邮箱" style="width: 240px;">
+                                </td>
+                            </tr>
+                            <tr style="align-items: start;">
+                                <td class="label">
+                                    <label for="note">留言:</label>
+                                </td>
+                                <td>
+                                    <textarea name="note" placeholder="请输入留言" rows="3" style="width: 240px;"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="button" value="提交" class="btn">
+                                    <input type="button" value="重置" class="btn">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

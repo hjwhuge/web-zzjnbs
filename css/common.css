@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.orange {
+    color: orange;
+}
+.content {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/*回到顶部*/
+.new_mbshop{
+    width: 100px;
+    position:fixed;
+    bottom:30px;
+    right:5px;
+    background: #00aeff;
+    text-align: center;
+}
+.new_mbshop #toTop{
+    display:none;
+    color: #fff;
+}
+
+header {
+    background-image: linear-gradient(to right, #00baff, #0336af);
+    height: 300px;
+}
+
+header img {
+    width: 1200px;
+    height: 300px;
+}
+
+/* 导航栏 */
+nav {
+    background-color: #5292c6;
+    margin-bottom: 30px;
+}
+nav .title {
+    font-size: 36px;
+    color: rgb(255,229,82);
+    font-weight: bolder;
+    text-align: center;
+}
+nav ul{
+    height: 60px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    position: relative;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: orange;
+}
+nav ul li .classify{
+    position: absolute;
+    left: -10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 8px 8px;
+    padding: 10px;
+    background-color: #5292c6;
+    width: 100%;
+    display: none;
+    opacity: 0;
+    z-index: 10;
+}
+nav ul li .classify a{
+    padding-bottom: 10px;
+}
